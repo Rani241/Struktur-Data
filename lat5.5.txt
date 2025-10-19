@@ -1,0 +1,14 @@
+Algoritma CETAK_STACK2 
+Deklarasi: 
+data : integer 
+Langkah-langkah: 
+1.  Jika (top2 == ukuran_array) maka 
+Tulis "Stack 2 kosong!" 
+2.  Jika tidak, maka 
+Ulangi selama (top2 != ukuran_array) 
+data ← Stack[top2] 
+Tulis "Isi Stack2: ", data 
+top2 ← top2 + 1 
+Akhir Ulangi 
+3.  Tulis "Semua data Stack2 telah ditampilkan." 
+Selesai
