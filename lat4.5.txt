@@ -8,4 +8,5 @@ Percobaan untuk menambahkan elemen (operasi push) saat stack penuh akan menghasi
 c.Bisa Diisi (Can be Pushed)
 Nilai Top lebih kecil dari indeks maksimum yang diperbolehkan (Top < N - 1)
 Stack bisa kosong atau sudah ada isinya, yang penting tidak penuh.
+
 Operasi Push berhasil dilakukan, dan Top akan bertambah (Top <- Top + 1) setelah elemen baru dimasukkan.
