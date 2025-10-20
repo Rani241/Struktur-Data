@@ -1,0 +1,11 @@
+Pengertian Konsep LIFO (Last In First Out)
+
+Konsep LIFO (Last In First Out) berarti data yang terakhir dimasukkan ke dalam struktur data akan menjadi data yang pertama dikeluarkan.
+Struktur data yang menggunakan prinsip ini disebut Stack (tumpukan).
+Dalam konteks komputer, prinsip LIFO banyak digunakan pada:
+
+Proses pemanggilan fungsi (function call stack) → fungsi yang terakhir dipanggil akan dieksekusi duluan dan selesai duluan.
+
+Fitur Undo/Redo → tindakan terakhir yang dilakukan akan dibatalkan lebih dulu.
+Membalik urutan data seperti string atau angka.
+Jadi, LIFO menekankan bahwa data masuk terakhir keluar duluan, dan semua operasi hanya bisa dilakukan di ujung atas stack.

@@ -1,0 +1,11 @@
+algoritma mengisi 10 record (sampai penuh)
+count = 0
+selama (count < 10) dan (R < MAX - 1):
+    input DATA
+    jika (F == -1):
+        F = 0
+    R = R + 1
+    Q[R] = DATA
+    count = count + 1
+jika (R == MAX - 1):
+    cetak "Queue penuh, pengisian dihentikan"

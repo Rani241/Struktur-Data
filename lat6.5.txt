@@ -1,0 +1,7 @@
+Perhitungan (n = 100)
+
+a. Jumlah pengantri belum dilayani:
+R - F + 1 = 37 - 15 + 1 = 23
+
+b. Jumlah kolom masih bisa diisi:
+n - (R + 1) = 100 - (37 + 1) = 62
