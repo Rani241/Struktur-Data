@@ -1,0 +1,10 @@
+Algoritma mengisi dari kanan sebanyak 10 record
+count = 0
+selama count < 10 dan REAR < MAX - 1:
+    baca DATA
+    jika FRONT == -1 → FRONT = 0
+    REAR = REAR + 1
+    DEQ[REAR] = DATA
+    count = count + 1
+jika REAR == MAX - 1:
+    cetak "Antrian penuh kanan, pengisian dihentikan"

@@ -1,0 +1,12 @@
+Mengisi 10 record atau sampai penuh
+count = 0
+selama (count < 10) dan ((REAR + 1) % MAX != FRONT):
+    input DATA
+    jika (FRONT == -1):
+        FRONT = REAR = 0
+    lain:
+        REAR = (REAR + 1) % MAX
+    Q[REAR] = DATA
+    count = count + 1
+jika ((REAR + 1) % MAX == FRONT):
+    cetak "Queue penuh, pengisian dihentikan"

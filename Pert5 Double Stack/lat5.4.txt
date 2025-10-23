@@ -1,0 +1,14 @@
+Algoritma CETAK_STACK1 
+Deklarasi: 
+data : integer 
+Langkah-langkah: 
+1.  Jika (top1 == -1) maka 
+Tulis "Stack 1 kosong!" 
+2.  Jika tidak, maka 
+Ulangi selama (top1 != -1) 
+data ← Stack[top1] 
+Tulis "Isi Stack1: ", data 
+top1 ← top1 - 1 
+Akhir Ulangi 
+3.  Tulis "Semua data Stack1 telah ditampilkan." 
+Selesai 

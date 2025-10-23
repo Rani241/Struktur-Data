@@ -1,0 +1,8 @@
+Ciri-ciri Linear Queue
+
+a. Kosong: F = -1 dan R = -1
+b. Penuh: R = MAX - 1
+c. Bisa diisi: R < MAX - 1
+d. Ada isinya: F ≠ -1
+e. Tak bisa diisi lagi tapi belum ada yang keluar: R = MAX - 1 dan F > -1
+f. Perlu direset: ketika R = MAX - 1 tapi masih ada elemen di depan (F > 0)

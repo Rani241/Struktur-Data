@@ -1,0 +1,20 @@
+a. Kosong:
+FRONT = -1 dan REAR = -1
+
+b. Penuh:
+(REAR + 1) % MAX == FRONT
+
+c. Bisa diisi:
+Kondisi tidak penuh dan tidak kosong →
+(REAR + 1) % MAX != FRONT
+
+d. Ada isinya:
+FRONT != -1
+
+e. Hanya berisi 10 record:
+JUMLAH_ISI = 10
+→ (REAR - FRONT + MAX) % MAX + 1 = 10
+
+f. Tempat kosong hanya 10:
+SISA_TEMPAT = 10
+→ MAX - ((REAR - FRONT + MAX) % MAX + 1) = 10

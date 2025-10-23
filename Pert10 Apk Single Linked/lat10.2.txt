@@ -1,0 +1,13 @@
+FIFO (First In First Out) adalah sebuah konsep dasar dalam manajemen antrian atau struktur data di mana elemen yang pertama kali masuk ke dalam suatu koleksi (atau antrian) adalah elemen pertama yang akan keluar atau diproses.
+
+Sederhananya, ini mengikuti prinsip "siapa datang duluan, dia keluar duluan" atau "yang paling lama menunggu, dilayani/keluar duluan."
+FIFO (First In First Out) adalah sebuah konsep dasar dalam manajemen antrian atau struktur data di mana elemen yang pertama kali masuk ke dalam suatu koleksi (atau antrian) adalah elemen pertama yang akan keluar atau diproses.
+
+Sederhananya, ini mengikuti prinsip "siapa datang duluan, dia keluar duluan" atau "yang paling lama menunggu, dilayani/keluar duluan."
+
+Ciri Khas Operasi
+Dalam konteks struktur data (sering disebut Queue atau Antrian), konsep FIFO diimplementasikan melalui dua operasi utama:
+ENQUEUE (Masuk): Operasi untuk menambah elemen baru. Elemen baru selalu ditambahkan di bagian belakang (atau tail) dari antrian.
+DEQUEUE (Keluar): Operasi untuk menghapus elemen. Elemen yang dihapus selalu diambil dari bagian depan (atau head) dari antrian.
+
+Antrian Loket Tiket: Orang yang pertama kali berdiri dalam antrian adalah orang pertama yang akan dilayani dan keluar dari antrian tersebut.
