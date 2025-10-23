@@ -1,8 +1,0 @@
-Menghitung jumlah elemen berisi (tanpa counter)
-jika (FRONT == -1):
-    jumlah = 0
-lain jika (REAR >= FRONT):
-    jumlah = REAR - FRONT + 1
-lain:
-    jumlah = MAX - FRONT + REAR + 1
-cetak "Jumlah elemen berisi =", jumlah
