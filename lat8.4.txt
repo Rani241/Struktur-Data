@@ -1,8 +1,0 @@
-Algoritma menghapus dari kanan sampai kosong
-selama FRONT != -1:
-    hapus DEQ[REAR]
-    jika FRONT == REAR:
-        FRONT = REAR = -1
-    lain:
-        REAR = REAR - 1
-cetak "Deque kosong"
